@@ -14,7 +14,7 @@ const {autoUpdater} = require("electron-updater");
 // but it sure makes debugging easier :)
 //-------------------------------------------------------------------
 autoUpdater.logger = log;
-autoUpdater.logger.transports.file.level = 'info';
+autoUpdater.logger.transports.file.level = 'debug';
 log.info('App starting...');
 
 //-------------------------------------------------------------------
